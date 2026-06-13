@@ -1,5 +1,12 @@
 # HelloShiftLeft
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+<!-- Auto-generated package badges -->
+
+![Maven Central](https://img.shields.io/maven-central/v/io.shiftleft/hello-shiftleft?style=flat-square&logo=apachemaven&color=red) ![Maven Central downloads](https://img.shields.io/maven-central/d/io.shiftleft/hello-shiftleft?style=flat-square&color=brightgreen) [![Deployed](https://img.shields.io/badge/deployed-0.0.1-blue?style=flat-square)](https://search.maven.org/artifact/io.shiftleft/hello-shiftleft)
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 This is a demo application which provides a real world representation of a REST service that uses a mix of convention and configuration to simulate a decent set of vulnerabilities exposed in the code. It includes scenarios such as sensitive data leaking to logs, data secrets leaks, authentication bypass, remote code execution, XSS vulnerabilites etc. The sample sensitive data is a mix of financial data such as account information, medical data of patients, and other PII data such as customer information. HelloShiftLeft also contains patterns/anti-patterns of how data is used/abused in interfaces or channels (to and from HTTP/TCP, third-party, database) that can lead to vulnerabilites. The application is built on the Spring Framework and exposes a series of endpoints and APIs for queries and simulating exploits.
 
 ## Build
